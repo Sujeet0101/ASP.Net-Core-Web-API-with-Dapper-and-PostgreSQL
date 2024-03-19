@@ -1,0 +1,85 @@
+[
+  {
+    "ContainingType": "Stud_Crud.Controllers.StudentController",
+    "Method": "GetStudents",
+    "RelativePath": "api/Student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stud_Crud.Controllers.StudentMarksDetailsController",
+    "Method": "GetAllStudentMarksDetails",
+    "RelativePath": "api/StudentMarksDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stud_Crud.Controllers.StudentMarksDetailsController",
+    "Method": "AddStudentMarksDetails",
+    "RelativePath": "api/StudentMarksDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentMarksDetails",
+        "Type": "Stud_Crud.Models.StudentMarksDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stud_Crud.Controllers.StudentMarksDetailsController",
+    "Method": "UpdateStudentMarksDetails",
+    "RelativePath": "api/StudentMarksDetails/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentMarksDetails",
+        "Type": "Stud_Crud.Models.StudentMarksDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stud_Crud.Controllers.StudentMarksDetailsController",
+    "Method": "DeleteStudentMarksDetails",
+    "RelativePath": "api/StudentMarksDetails/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stud_Crud.Controllers.SubjectController",
+    "Method": "GetSubjects",
+    "RelativePath": "api/Subject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
